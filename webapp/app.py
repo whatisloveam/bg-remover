@@ -15,3 +15,7 @@ templates = Jinja2Templates(directory="templates")
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return templates.TemplateResponse("index.html", context={"request": request})
+
+@app.get("/replace", response_class=HTMLResponse)
+async def augmentation(request: Request):
+    return templates.TemplateResponse("replace.html", context={"request": request})
