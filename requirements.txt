@@ -6,3 +6,4 @@ uvicorn
 fastapi
 scikit-image
 python-multipart
+httpx
