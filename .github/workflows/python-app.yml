@@ -28,6 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         pip install -r ./requirements.txt
+        wget https://huggingface.co/akhaliq/CLIPasso/resolve/main/u2net.pth -O u2net.pth
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
