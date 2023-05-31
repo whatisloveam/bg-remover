@@ -10,12 +10,12 @@ model_path = './ckpt/u2net.pth'
 
 
 def test_homepage():
-    response = client.post("/")
+    response = client.get("/")
     assert response.status_code == 200
 
 
 def test_read():
-    response = client.post("/replace")
+    response = client.get("/replace")
     assert response.status_code == 200
 
 
