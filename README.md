@@ -1,6 +1,8 @@
 [![Tests](https://github.com/whatisloveam/bg-remover/tree/main/.github/workflows/python-app.yml/badge.svg)](https://github.com/whatisloveam/bg-remover/tree/main/.github/workflows/python-app.yml)
 
-+ [![cov](https://github.com/whatisloveam/bg-remover/tree/main/.github/workflows/badges/coverage.svg)](https://github.com/whatisloveam/bg-remover/tree/main/.github/workflows/python-app.yml)
+<!-- README.md -->
++ [![cov](https://DavidChili34.github.io/whatisloveam/badges/coverage.svg)](https://github.com/whatisloveam/bg-remover/tree/main/.github/workflows/python-app.yml)
+
 
 # bg-remover
 Проект по дисциплине "Программная инженерия".

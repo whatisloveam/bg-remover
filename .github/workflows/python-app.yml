@@ -29,6 +29,17 @@ jobs:
         pip install flake8 pytest
         pip install -r ./requirements.txt
         wget https://huggingface.co/akhaliq/CLIPasso/resolve/main/u2net.pth -O ./webapp/ckpt/u2net.pth
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+    - name: Install
+      run: npm install
+    - name: Test and Coverage
+      run: npm run test:cov  # or npm run coverage
+  
+        # Add this
+    - name: Update Coverage Badge
+      uses: we-cli/coverage-badge-action@main
+        
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
