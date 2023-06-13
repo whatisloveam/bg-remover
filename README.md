@@ -1,3 +1,4 @@
+[![Tests](https://github.com/whatisloveam/bg-remover/actions/workflows/python-app.yml/badge.svg)](https://github.com/whatisloveam/bg-remover/actions/workflows/python-app.yml)
 # bg-remover
 Проект по дисциплине "Программная инженерия".
 
