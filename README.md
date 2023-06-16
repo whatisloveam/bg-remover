@@ -1,7 +1,7 @@
 [![Tests](https://github.com/whatisloveam/bg-remover/actions/workflows/python-app.yml/badge.svg)](https://github.com/whatisloveam/bg-remover/actions/workflows/python-app.yml)
 # bg-remover
 Проект по дисциплине "Программная инженерия".
-Демо: [https://github.com/xuebinqin/U-2-Net](https://github.com/xuebinqin/U-2-Net)
+Демо: [http://193.124.125.35:8000/](http://193.124.125.35:8000/)
 ## Состав команды:
 * [Владислав Мельников](https://github.com/whatisloveam) (РИМ-120906)
 * [Давид Чилингарян](https://github.com/DavidChili34) (РИМ-120907)
